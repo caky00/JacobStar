@@ -1,9 +1,11 @@
 export const VOTE_URL: string | null = null;
 
+const base = import.meta.env.BASE_URL;
+
 export const assets = {
-  heroPortrait: "/jakub-portrait.webp",
-  poster: "/jakub-foxconn-poster.webp",
-  cycling: "/jakub-outdoors-facebook.webp",
+  heroPortrait: `${base}jakub-portrait.webp`,
+  poster: `${base}jakub-foxconn-poster.webp`,
+  cycling: `${base}jakub-outdoors-facebook.webp`,
 };
 
 export const socialProfiles = {
