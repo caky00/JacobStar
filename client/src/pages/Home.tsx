@@ -83,11 +83,9 @@ export default function Home() {
               2. KOLO <span className="eyebrow-divider">•</span> FOXCONN STARS
             </div>
             <p className="category-label">Technologie a procesy</p>
-            <h1 id="hero-title">
-              Za dobrými výsledky stojí <em>dobří lidé.</em>
-            </h1>
+            <h1 id="hero-title">Jakub Špringer</h1>
             <p className="hero-intro">
-              A za posunem vpřed ti, kteří umí propojit techniku, nápady a lidi.
+              zná řešení na všechny vaše problémy, obsahuje 0% stresu a slyší na jméno Jacob.
             </p>
             <p className="hero-name">
               Jakub <span>Špringer</span>
