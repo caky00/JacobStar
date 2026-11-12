@@ -19,13 +19,13 @@ import CampaignMark from "@/components/CampaignMark";
 const reasons = [
   {
     icon: Workflow,
-    text: "Když se něco zamotá, Kubu jen tak něco nerozhodí. Zachová klid a hledá, kde je problém doopravdy.",
+    text: "rozvážný veterán, který prošel mnoho bitev a nyní si jde pro svojí výsluhu a vy mu jí můžete pomoct získat svým hlasem!",
   },
-  { icon: Wrench, text: "Vidí souvislosti a rychle se zorientuje i ve složitých systémových problémech." },
-  { icon: UsersRound, text: "V našem engineeringovém koutku jsme na jedné vlně. Jeho pohledu si vážím." },
+  { icon: Wrench, text: "jeho nádherné modré oči vás dostanou" },
+  { icon: UsersRound, text: "postárá se i o nesvéprávné" },
   {
     icon: Zap,
-    text: "Černý humor máme společný. A když si chce vyčistit hlavu, vyrazí běhat.",
+    text: "přemýšlí bleskově",
   },
 ];
 
