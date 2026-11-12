@@ -19,13 +19,13 @@ import CampaignMark from "@/components/CampaignMark";
 const reasons = [
   {
     icon: Workflow,
-    text: "Přispěl k zavedení automatické balicí linky, která zlepšuje efektivitu výroby.",
+    text: "Když se něco zamotá, Kubu jen tak něco nerozhodí. Zachová klid a hledá, kde je problém doopravdy.",
   },
-  { icon: Wrench, text: "Během projektů aktivně hledá technická řešení." },
-  { icon: UsersRound, text: "Komunikuje s týmy a motivuje kolegy." },
+  { icon: Wrench, text: "Vidí souvislosti a rychle se zorientuje i ve složitých systémových problémech." },
+  { icon: UsersRound, text: "V našem engineeringovém koutku jsme na jedné vlně. Jeho pohledu si vážím." },
   {
     icon: Zap,
-    text: "Posouvá procesy směrem k automatizaci, standardizaci a udržitelnému rozvoji.",
+    text: "Černý humor máme společný. A když si chce vyčistit hlavu, vyrazí běhat.",
   },
 ];
 
@@ -125,15 +125,15 @@ export default function Home() {
           aria-labelledby="contribution-title"
         >
           <div className="section-heading">
-            <p className="kicker">CO STOJÍ ZA JEHO PŘÍNOSEM</p>
+            <p className="kicker">JAK HO ZNÁME V TÝMU</p>
             <h2 id="contribution-title">
-              Technologie v pohybu.
+              Klidná hlava.
               <br />
-              <em>Lidé na prvním místě.</em>
+              <em>Bystrý úsudek. Černý humor.</em>
             </h2>
             <p className="section-lede">
-              Jakubova práce spojuje každodenní zlepšování s ohledem na tým i
-              budoucnost výroby.
+              V System Engineeringu spolu řešíme složité systémové problémy. S
+              Kubou po boku se neztratí nadhled — ani podstata věci.
             </p>
           </div>
           <div className="reason-grid">
@@ -188,7 +188,8 @@ export default function Home() {
           <div
             className="support-banner"
             style={{
-              backgroundImage: `linear-gradient(90deg, rgba(7,23,38,.96) 0%, rgba(7,23,38,.78) 52%, rgba(7,23,38,.18) 100%), url("${assets.starBanner}")`,
+              backgroundImage:
+                "radial-gradient(circle at 84% 24%, rgba(240,197,108,.18) 0 1px, transparent 2px), radial-gradient(circle at 75% 75%, rgba(240,197,108,.16) 0 1px, transparent 2px), linear-gradient(112deg, #0b2235, #071726 68%, #102b40)",
             }}
           >
             <div className="support-content">
