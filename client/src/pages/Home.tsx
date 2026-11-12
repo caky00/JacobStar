@@ -125,15 +125,14 @@ export default function Home() {
           aria-labelledby="contribution-title"
         >
           <div className="section-heading">
-            <p className="kicker">JAK HO ZNÁME V TÝMU</p>
+            <p className="kicker">TAKOVÝ JE KUBA</p>
             <h2 id="contribution-title">
-              Klidná hlava.
+              Když se hroutí systém,
               <br />
-              <em>Bystrý úsudek. Černý humor.</em>
+              <em>Kuba ne.</em>
             </h2>
             <p className="section-lede">
-              V System Engineeringu spolu řešíme složité systémové problémy. S
-              Kubou po boku se neztratí nadhled — ani podstata věci.
+              Chladná hlava, žádný drama!
             </p>
           </div>
           <div className="reason-grid">
